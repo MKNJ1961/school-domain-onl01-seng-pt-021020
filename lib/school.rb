@@ -23,8 +23,4 @@ class School
     @roster[number]
   end
 
-
-
-  end
-
 end
