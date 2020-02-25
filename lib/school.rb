@@ -10,7 +10,7 @@ class School
     @roster
   end
 
-  def roster(grade, student_name)
+  def intitialize(grade, student_name)
     roster ={}
   end
 end
