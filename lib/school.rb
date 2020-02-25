@@ -1,11 +1,20 @@
 class School
 
-  def intialize(school_name)
-    @school_name = school_name
-    @roster = {}
-  end
+  def initialize(school_name)
+      @school_name = school_name
+      @roster = {}
+    end
+  
+    def roster
+      @roster
+    end
 
-  def roster
-    @roster
-  end
-end
+#   def intialize(school_name)
+#     @school_name = school_name
+#     @roster = {}
+#   end
+# 
+#   def roster
+#     @roster
+#   end
+# end
