@@ -10,7 +10,7 @@ class School
     end
   end
 
-#   def intialize(school_name)
+#   def initialize(school_name)
 #     @school_name = school_name
 #     @roster = {}
 #   end
