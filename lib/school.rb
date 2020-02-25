@@ -10,8 +10,12 @@ class School
     @roster
   end
 
-  def intitialize(grade, student_name)
-    @roster = grade, name
-    @roster ={}
+  def add_student(name, grade)
+    @rstudent_name = name
+    @grade = grade
+    if @roster.include?(grade) == false
+      @roster[grade] = []
+    end
+    @roster[grade] << name
   end
 end
