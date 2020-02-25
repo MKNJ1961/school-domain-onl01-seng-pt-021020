@@ -18,9 +18,13 @@ class School
     end
     @roster[grade] << name
   end
-  def grade(name, grade)
+  def grade(grade)
     @grade = grade
     @name = name
+    if @grade.include?(grade) == true
+      @roster[grade] = []
+      
+
   end
 
 end
