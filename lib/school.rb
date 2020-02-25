@@ -11,7 +11,7 @@ class School
   end
 
   def intitialize(grade, student_name)
-    @roster = (grade, student_name)
+    @roster = (grade, name)
     @roster ={}
   end
 end
