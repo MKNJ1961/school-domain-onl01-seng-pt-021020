@@ -1,8 +1,8 @@
 class School
 
-  def  school
+  def  school(name)
     @school_name = school_name
-    @school = school_name
+    @school = School.new
   end
 
 
